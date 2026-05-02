@@ -75,7 +75,7 @@ export const SecondPage = () => {
             </div>
 
             {/* 2. THE STORY CANVAS */}
-            <div className={`absolute inset-0 w-full h-full flex items-center justify-center transition-all duration-[1500ms] ease-in-out z-10 ${
+            <div className={`absolute inset-0 w-full h-full flex items-center justify-center transition-all duration-[5000ms] ease-in-out z-10 ${
                 startStory ? 'translate-x-0' : 'translate-x-full'
             }`}>
                 <div className="bg-cyan-800/40 relative w-[95vw] h-[85vh] border-2 border-slate-700 rounded-2xl shadow-2xl overflow-hidden pointer-events-auto bg-[#0a0a0a]">
